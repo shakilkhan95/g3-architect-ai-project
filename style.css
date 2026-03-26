@@ -254,6 +254,10 @@ a {
   line-height: 1.15;
 }
 
+.hero-text h1 span {
+  color: var(--accent-dark);
+}
+
 .hero-sub {
   max-width: 520px;
   margin: 16px auto 0;
