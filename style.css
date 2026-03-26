@@ -286,6 +286,7 @@ a {
 
 .features-intro-inner {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 80px;
 }
@@ -321,6 +322,7 @@ a {
 
 .features-detail-inner {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 80px;
 }
@@ -446,13 +448,14 @@ a {
 
 .stat-card {
   flex: 1;
-  background: var(--bg-white);
+  background: var(--bg-cream);
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
   padding: 24px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  gap: 10px;
   transition: box-shadow var(--transition), transform var(--transition);
 }
 
